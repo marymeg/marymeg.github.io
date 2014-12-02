@@ -559,18 +559,19 @@
 	.instagram
 	{
 		float: left;
-		width: 350px;
+		width: 320px;
+		margin-right: 70px;
 	}
 
 	.facebook
 	{
 		float: right;
-		width: 350px;
+		width: 300px;
 	}
 
 	.twitter
 	{
-		float: right;
+		float: left;
 		width: 350px;
 	}
 
