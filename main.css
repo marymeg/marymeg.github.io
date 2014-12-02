@@ -19,6 +19,12 @@
 
 	/*Common elements*/
 
+	body
+	{
+		padding: 0;
+		margin: 0;
+	}
+
 	.sectionContainerWhite
 	{
 		width: 100%;
@@ -124,12 +130,13 @@
 	{
 		margin: 0 auto;
 		width:1000px;
+		text-align: center;
 		
 	}
 
 	.topBar a
 	{
-		color: black;
+		color: #5b5a5a;
 	}
 
 	.topBar a:hover
@@ -139,33 +146,35 @@
 
 	}
 
+	.topBar a:focus
+	{
+		text-decoration: none;
+	}
+
 	.topBar ul
 	{
 
-		padding-left: 70px;
+		padding: 0px;
+		padding-top: 8px;
 	}
 	
 	.topBar li
 	{
-		list-style: none;
-		float: left;
-		font-size: 15px;
+
+		display: inline;
+		font-size: 12px;
 		font-family: 'HelveticaNeue-Light';
-		padding-right: 50px;
+		font-family: "brandon_grotesque_regularRg";
+		text-transform: uppercase;
+		font-weight: 500;
+		padding-right: 40px;
 		margin-top: 10px;
 	}
 	
 	.topBar img
 	{
-		width: 230px;
-		float: left;
-		padding-right: 60px;
-		padding-left: 60px;
-	}
-
-	#last
-	{
-		padding-right: 0px;
+		width: 210px;
+		margin: 0 15px;
 	}
 	
 	.breakingFlow
@@ -541,6 +550,11 @@
 
 	/* Social */
 
+	.sectionContainerWhite.social
+	{
+		padding-bottom: 40px;
+	}
+
 	#social
 	{
 		width: 1150px;
@@ -560,7 +574,7 @@
 	{
 		float: left;
 		width: 320px;
-		margin-right: 70px;
+		margin-right: 100px;
 	}
 
 	.facebook
@@ -580,10 +594,77 @@
 
 	/* Footer */
 
-	.Footer
+	.footerContainer
 	{
-		float: none;
+		width: 100%
 	}
+
+	#footer
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.logoFooter
+	{
+		background-color: black;
+		height: 60px;
+	}
+
+	.logoFooter img
+	{
+		width: 200px;
+		padding: 10px 0 10px 0;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-top: 15px;
+	}
+
+	.socialFooter
+	{
+		text-align: center;
+		background-color: #ebebeb;
+		margin: 0 auto;
+		height: 140px;
+		position: relative;
+	}
+
+	.socialFooter ul
+	{
+		padding: 0px;
+		min-width: 600px;
+		list-style: none;
+		padding-top: 30px;
+	}
+
+	#firstList
+	{
+		padding-left: 0px;
+	}
+
+	.socialFooter li
+	{
+		display: inline;
+		padding-left: 7px;
+	}
+
+	.socialFooter img
+	{
+		width: 30px;
+	}
+
+	.socialFooter p
+	{
+		font-size: 8px;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		bottom: 0px;
+	}
+
 	
 
 
