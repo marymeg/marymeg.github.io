@@ -183,7 +183,7 @@
 
 	#Fashion
 	{
-		width: 90%;
+		width: 95%;
 		margin: 0 auto;
 	}
 
@@ -282,8 +282,7 @@
 	{
 		float: right;
 		width: 25%;
-		position: relative;
-		right: 65px;
+		margin-right: 65px;
 	}
 
 	.fashionImagesRight img
@@ -310,13 +309,12 @@
 		float: right;
 		position: relative;
 		right: 80px;
-		top: 105px
+		top: 105px;
+		width:20%;
 	}
 
 	.fashionDescription p
 	{
-
-		width: 250px;
 
 		padding: 10px;
 		border-top:1px solid #787777;
