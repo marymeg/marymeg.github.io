@@ -282,7 +282,8 @@
 	{
 		float: right;
 		width: 25%;
-		margin-right: 65px;
+		position: relative;
+		right: 65px;
 	}
 
 	.fashionImagesRight img
@@ -315,6 +316,8 @@
 
 	.fashionDescription p
 	{
+
+		width: 250px;
 
 		padding: 10px;
 		border-top:1px solid #787777;
