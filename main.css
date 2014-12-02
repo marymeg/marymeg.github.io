@@ -564,6 +564,12 @@
 
 	.facebook
 	{
+		float: left;
+		width: 400px;
+	}
+
+	.twitter
+	{
 		float: right;
 		width: 400px;
 	}
