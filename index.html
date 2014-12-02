@@ -20,7 +20,22 @@
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="dist/instagram.min.js"></script>
+    <script src="js/instagram.min.js"></script>
+
+    <script>
+    jQuery(function($) {
+      $('.instagram').on('willLoadInstagram', function(event, options) {
+        console.log(options);
+      });
+      $('.instagram').on('didLoadInstagram', function(event, response) {
+        console.log(response);
+      });
+      $('.instagram').instagram({
+        hash: 'love',
+        clientId: 'b9d6061d0ea349d5b8a658afb153a90d'
+      });
+    });
+    </script>
 
     <!-- Pinterest -->
     
@@ -353,6 +368,8 @@
       </div>
 
 
+
+
       <div class="instagram"></div>
 
 
@@ -364,6 +381,8 @@
          image_size:'standard_resolution'
         });
       </script>
+
+
 
 
 
