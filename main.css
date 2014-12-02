@@ -541,6 +541,32 @@
 
 	/* Social */
 
+	#social
+	{
+		width: 1100px;
+		margin: 0 auto;
+	}
+
+	.socialTitle
+	{
+		margin-bottom: 50px;
+		font-size: 25px;
+		font-family: 'brandon_grotesque_regularRg';
+		font-weight: 500;
+		color: #959595;
+	}
+
+	.instagram
+	{
+		float: left;
+		width: 400px;
+	}
+
+	.facebook
+	{
+		float: right;
+		width: 400px;
+	}
 
 
 
