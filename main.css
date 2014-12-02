@@ -282,7 +282,8 @@
 	{
 		float: right;
 		width: 25%;
-
+		position: relative;
+		right: 2%;
 	}
 
 	.fashionImagesRight img
