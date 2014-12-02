@@ -151,7 +151,7 @@
 		float: left;
 		font-size: 15px;
 		font-family: 'HelveticaNeue-Light';
-		padding-right: 69px;
+		padding-right: 50px;
 		margin-top: 10px;
 	}
 	
@@ -159,7 +159,13 @@
 	{
 		width: 230px;
 		float: left;
-		padding-right: 55px;
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+
+	#last
+	{
+		padding-right: 0px;
 	}
 	
 	.breakingFlow
@@ -532,6 +538,10 @@
 		left: 75%;
 		top: 45px;
 	}
+
+	/* Social */
+
+
 
 
 

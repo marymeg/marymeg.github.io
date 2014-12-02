@@ -22,20 +22,7 @@
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/instagram.min.js"></script>
 
-    <script>
-    jQuery(function($) {
-      $('.instagram').on('willLoadInstagram', function(event, options) {
-        console.log(options);
-      });
-      $('.instagram').on('didLoadInstagram', function(event, response) {
-        console.log(response);
-      });
-      $('.instagram').instagram({
-        hash: 'love',
-        clientId: 'b9d6061d0ea349d5b8a658afb153a90d'
-      });
-    });
-    </script>
+
 
     <!-- Pinterest -->
     
@@ -55,14 +42,26 @@
 
   <body>
 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) 
+    {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }
+    (document, 'script', 'facebook-jssdk'));
+    </script>
+
 
     <!-- Top bar -->
     <div class="barContainer">
       <div class="topBar">
           <ul>
             <li><a href="#Fashion">Fashion</a></li>
-            <li><a href="#FashionContainer">Cities</a></li>
             <li><a href="#FashionContainer">Conceptual</a></li>
+            <li id="last" ><a href="#FashionContainer">People</a></li>
             <img src="Images/MaryEscalonaLogoBlack.png" />
             <li><a href="#FashionContainer">Social</a></li>
             <li><a href="#FashionContainer">Bio</a></li>
@@ -370,17 +369,8 @@
 
 
 
-      <div class="instagram"></div>
+      <!-- www.intagme.com -->
 
-
-      <script>
-        $(".instagram").instagram(
-        {
-         userId: 'b9d6061d0ea349d5b8a658afb153a90d',
-         clientId: '215694349',
-         image_size:'standard_resolution'
-        });
-      </script>
 
 
 
@@ -388,6 +378,8 @@
 
       <!-- Social container -->
       <div class="sectionContainerGray">
+
+        
 
 
         <div class="Cities">
@@ -436,6 +428,35 @@
         <div class="breakingFlow"></div>
 
       </div><!-- End cities container -->
+
+
+      <div class="sectionContainerWhite">
+
+        <div class="sectionTiltle">
+
+              <p>Be Social</p>
+
+          </div>
+
+        <div id="social">
+
+          <div class="instagram">
+
+              <iframe src="http://www.intagme.com/in/?u=bWFyeWVmb3RvZ3JhZmlhfGlufDEwMHwzfDN8fG5vfDV8dW5kZWZpbmVkfHllcw==" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:315px; height: 315px" ></iframe>
+
+              <div class="fb-like-box" data-href="https://www.facebook.com/pages/Mary-Escalona-Fotograf%C3%ADa/366906106708866?fref=ts" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+
+
+          </div>
+
+          
+
+
+
+        </div>
+
+
+      </div>
 
 
       
