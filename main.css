@@ -192,7 +192,7 @@
 	.FashionVCarouselContainer
 	{
 		margin: 0;
-		width: 600px;
+		width: 54%;
 		height: 820px;
 		position: relative;
 		float: left;
@@ -281,7 +281,7 @@
 	.fashionImagesRight
 	{
 		float: right;
-		width: 285px;
+		width: 25%;
 		position: relative;
 		right: 65px;
 	}
