@@ -565,13 +565,13 @@
 
 	.facebook
 	{
-		float: right;
+		float: left;
 		width: 300px;
 	}
 
 	.twitter
 	{
-		float: left;
+		float: right;
 		width: 350px;
 	}
 
