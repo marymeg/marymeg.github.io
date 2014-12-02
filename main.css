@@ -19,10 +19,21 @@
 
 	/*Common elements*/
 
-	.sectionContainer
+	.sectionContainerWhite
 	{
 		width: 100%;
-		
+	}
+
+	.sectionContainerGray
+	{
+		background-color: #F5F5F5;
+		margin-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.sectionContainerGray
+	{
+		width: 100%;
 	}
 
 	.sectionTiltle
@@ -158,12 +169,6 @@
 
 
 	/*Fashion Section*/
-
-
-	.sectionContainer.fashion
-	{
-		
-	}
 
 	#Fashion
 	{
@@ -326,12 +331,7 @@
 	
 	/* Cities Section */
 
-	.sectionContainer.cCities
-	{
-		background-color: #F5F5F5;
-		margin-top: 50px;
-		height: 1100px;	
-	}
+	
 
 	.Cities
 	{
@@ -386,16 +386,13 @@
 		margin-top: 50px;
 	}
 
-	.description.cities
+	.citiesDescription
 	{
-		width: 1000px;
-		float: left;
 		margin: 0 auto;
-		position: relative;
-		top: 70px;
+		margin-top: 30px;
 	}
 
-	.description.cities p
+	.citiesDescription p
 	{
 		text-align: center;
 		font-size: 30px;
@@ -405,11 +402,9 @@
 	}
 
 
-	.description .btn-lg
+	.CitiesButton
 	{
-		position: absolute;
-		right: 427px;
-		top: 60px;	
+		text-align: center;
 	}
 
 

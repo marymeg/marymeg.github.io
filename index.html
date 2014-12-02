@@ -19,6 +19,9 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="dist/instagram.min.js"></script>
+
     <!-- Pinterest -->
     
     <!-- Please call pinit.js only once per page -->
@@ -113,7 +116,7 @@
 
     <!-- Fashion Container -->
 
-    <div class="sectionContainer fashion"> 
+    <div class="sectionContainerWhite"> 
 
       <div id="Fashion">
         
@@ -218,12 +221,12 @@
     </div><!-- End fashion container -->
 
 
-      <div class="breakingFlow"></div>
+
 
 
 
       <!-- Cities container -->
-      <div class="sectionContainer cCities">
+      <div class="sectionContainerGray">
 
         <div class="Cities">
 
@@ -265,11 +268,13 @@
 
           </div>
 
-          <div class="description cities">
+          <div class="breakingFlow"></div>
+
+          <div class="citiesDescription">
 
             <p>Cities Lights</p>
 
-            <a href="cities.html"><button type="button" class="btn btn-lg dark">view all</button></a>
+            <div class="CitiesButton"><a href="cities.html"><button type="button" class="btn btn-lg dark">view all</button></a></div>
 
           </div>
 
@@ -279,12 +284,11 @@
 
 
 
-      <div class="breakingFlow"></div>
 
 
 
       <!-- Conceptual container -->
-      <div class="sectionContainer conceptual">
+      <div class="sectionContainerWhite">
 
         <div class="conceptual">
 
@@ -335,7 +339,6 @@
             
           </div><!-- /.carousel -->
 
-          <div class="breakingFlow"></div>
 
            <div class="conceptualDescription">
 
@@ -345,14 +348,28 @@
 
         </div>
 
+        <div class="breakingFlow"></div>
+
       </div>
 
 
+      <div class="instagram"></div>
+
+
+      <script>
+        $(".instagram").instagram(
+        {
+         userId: 'b9d6061d0ea349d5b8a658afb153a90d',
+         clientId: '215694349',
+         image_size:'standard_resolution'
+        });
+      </script>
 
 
 
-      <!-- Cities container -->
-      <div class="sectionContainer cCities">
+      <!-- Social container -->
+      <div class="sectionContainerGray">
+
 
         <div class="Cities">
 
@@ -396,6 +413,8 @@
 
 
         </div>
+
+        <div class="breakingFlow"></div>
 
       </div><!-- End cities container -->
 
