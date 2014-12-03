@@ -366,34 +366,36 @@
 	.imageLeft
 	{
 		float: left;
-		margin-left: 35px;
+		margin-left: 3%;
+		width: 41%;
 	}
 
 	.imageLeft img
 	{
-		width: 450px;
+		width: 100%;
 	}
 
 	.imageRight
 	{
 		float: right;
-		margin-right: 35px;
+		margin-left: 3%;
+		width: 41%;
 	}
 
 	.imageRight img
 	{
-		width: 450px;
+		width: 100%;
 	}
 
 
 	.imageLeft.secondRow
 	{
-		margin-top: 50px;
+		margin-top: 4%;
 	}
 
 	.imageRight.secondRow
 	{
-		margin-top: 50px;
+		margin-top: 4%;
 	}
 
 	.citiesDescription
