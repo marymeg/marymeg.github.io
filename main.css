@@ -163,14 +163,14 @@
 		font-family: "brandon_grotesque_regularRg";
 		text-transform: uppercase;
 		font-weight: 500;
-		padding-right: 40px;
+		padding-right: 4%;
 		margin-top: 10px;
 	}
 	
 	.topBar img
 	{
-		width: 210px;
-		margin: 0 15px;
+		width: 21%;
+		margin: 0 1.5%;
 	}
 	
 	.breakingFlow
