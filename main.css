@@ -181,7 +181,7 @@
 
 	/*Fashion Section*/
 
-	#Fashion
+	.fashion
 	{
 		width: 90%;
 		margin: 0 auto;
@@ -309,9 +309,9 @@
 	{
 		float: right;
 		position: relative;
-		left: 200px;
-		bottom: -545px;
-		width:20%;
+		right: 8%;
+		width: 90%;
+		margin-top: 50%;
 	}
 
 	.fashionDescription p
