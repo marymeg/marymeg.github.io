@@ -29,6 +29,7 @@
 
   <body>
 
+    <script type="text/javascript" src="twitter.js"></script>
 
 
     <div id="fb-root"></div>
@@ -37,33 +38,64 @@
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.0";
+      js.src = "http://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.0";
       fjs.parentNode.insertBefore(js, fjs);
     }
     (document, 'script', 'facebook-jssdk'));
     </script>
 
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+ 
 
 
     <!-- Top bar -->
     <div class="barContainer">
       <div class="topBar">
           <ul>
-            <li><a href="#Fashion">Fashion</a></li>
-            <li><a href="#FashionContainer">Conceptual</a></li>
-            <li><a href="#FashionContainer">People</a></li>
+            <li><a href="#fashion">Fashion</a></li>
+            <li><a href="#conceptual">Conceptual</a></li>
+            <li><a href="#people">People</a></li>
             <li><img src="Images/MaryLogoWhite.png" /></li>
-            <li><a href="#FashionContainer">Social</a></li>
+            <li><a href="#social">Social</a></li>
             <li><a href="#FashionContainer">Bio</a></li>
             <li><a href="#FashionContainer">Contact</a></li>
           </ul>
       </div> 
 
-      <div class="breakinFlow"></div> 
+      <div class="breakinFlow"></div>
+
     </div>
-    
-    
+
+    <!-- Mobile bar -->
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html#"><img src="Images/MaryLogoWhite.png" /></a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#fashion">Fashion</a></li>
+              <li class="dropdown">
+                <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Conceptual <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#conceptual">Conceptual photography</a></li>
+                  <li><a href="#cities">Cities</a></li>
+                </ul>
+              </li>
+              <li><a href="#people">People</a></li>
+              <li><a href="#social">Social</a></li>
+              <li><a href="#">Bio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid --> 
+    </div>
 
     <!-- Main carousel -->
 
@@ -75,22 +107,22 @@
 
               <!-- Slide One -->
               <div class="item active">
-                <img src="Images/Main/1.jpg" alt="First slide">
+                <img src="Images/main/1.jpg" alt="First slide">
               </div>
 
               <!-- Slide two -->
               <div class="item">
-                <img src="Images/Main/2.jpg" alt="Second slide">
+                <img src="Images/main/2.jpg" alt="Second slide">
               </div>
 
               <!-- Slide three -->
               <div class="item">
-                <img src="Images/Main/3.jpg" alt="Third slide">
+                <img src="Images/main/3.jpg" alt="Third slide">
               </div>
 
               <!-- Slide four -->
               <div class="item">
-                <img src="Images/Main/4.jpg" alt="Third slide">
+                <img src="Images/main/4.jpg" alt="Third slide">
                 <div class="container">
                 </div>
               </div>
@@ -114,9 +146,6 @@
           </div><!-- End main carousel -->
 
     </div><!-- End main container -->
-
-          
-
 
 
 
@@ -212,13 +241,21 @@
 
             <div class="breakingFlow"></div>
 
-            <div class="fashionDescription">
+            
+
+          </div>
+
+          <div class="breakingFlow"></div>
+
+          <div class="fashionDescription">
 
               <p>World Fashion</p>
 
-              <a href="fashion.html"><button type="button" class="btn btn-lg">View All</button></a>
-
             </div>
+
+          <div class="fashionButton">
+
+              <button type="button" onclick="location.href='fashion.html'" class="btn btn-lg">View All</button>
 
           </div>
 
@@ -231,7 +268,7 @@
 
 
       <!-- Cities container -->
-      <div class="sectionContainerGray">
+      <div class="sectionContainerGray" id="cities">
 
         <div class="content">
 
@@ -243,7 +280,7 @@
 
           <div class="imageLeft">
 
-            <img src="Images/Main/cities/1.jpg">
+            <img src="Images/cities/7.jpg">
 
             <h1>Miami</h1>
 
@@ -251,7 +288,7 @@
 
           <div class="imageRight">
 
-            <img src="Images/Main/cities/2.jpg">
+            <img src="Images/cities/1.jpg">
 
             <h1>New York</h1>
 
@@ -259,7 +296,7 @@
 
           <div class="imageLeft secondRow">
 
-            <img src="Images/Main/cities/3.jpg">
+            <img src="Images/cities/5.jpg">
 
             <h1>Miami</h1>
 
@@ -267,7 +304,7 @@
 
           <div class="imageRight secondRow">
 
-            <img src="Images/Main/cities/5.jpg">
+            <img src="Images/cities/10.jpg">
 
             <h1>New York</h1>
 
@@ -279,7 +316,11 @@
 
             <p>Cities Lights</p>
 
-            <div class="CitiesButton"><a href="cities.html"><button type="button" class="btn btn-lg dark">view all</button></a></div>
+            <div class="CitiesButton">
+
+              <button type="button" onclick="location.href='cities.html'" class="btn btn-lg dark">view all</button>
+
+            </div>
 
           </div>
 
@@ -290,7 +331,7 @@
 
 
       <!-- Conceptual container -->
-      <div class="sectionContainerWhite">
+      <div class="sectionContainerWhite" id="conceptual">
 
         <div class="content">
 
@@ -335,33 +376,37 @@
             </div>
 
                   <!-- Arrows at corners -->
-              <a class="left carousel-control" href="#conceptual" role="button" data-slide="prev"><img id ="Arrow" src="Images/leftBlackArrow.png"></a>
+              <a class="left carousel-control" href="#conceptual" role="button" data-slide="prev"><img id ="cArrow" src="Images/leftBlackArrow.png"></a>
 
-              <a class="right carousel-control" href="#conceptual" role="button" data-slide="next"><img id ="Arrow" src="Images/rightBlackArrow.png"></a>
+              <a class="right carousel-control" href="#conceptual" role="button" data-slide="next"><img id ="cArrow" src="Images/rightBlackArrow.png"></a>
             
           </div><!-- /.carousel -->
 
 
           <div class="conceptualDescription">
 
-            <p>Beautiful Pieces Of Art</p>
+            <p>Conceptual Photoshoots</p>
 
           </div>
 
-          <div class="conceptualButton"><a href="conceptual.html"><button type="button" class="btn btn-lg dark">view all</button></a></div>
+          <div class="conceptualButton">
 
-        </div>
+            <button type="button" onclick="location.href='conceptual.html'" class="btn btn-lg dark">view all</button>
+
+          </div>
 
         <div class="breakingFlow"></div>
 
       </div>
+
+    </div>
 
 
 
 
 
       <!-- people container -->
-      <div class="sectionContainerGray">
+      <div class="sectionContainerGray" id="people">
 
         <div class="content">
 
@@ -390,7 +435,7 @@
 
 
       <!-- Social container -->
-      <div class="sectionContainerWhite social">
+      <div class="sectionContainerWhite social " id="social">
 
         <div class="sectionTiltle">
 
@@ -474,7 +519,6 @@
         </div>
 
       </div>
-
 
       
 

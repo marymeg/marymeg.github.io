@@ -44,16 +44,46 @@
             <li><a href="#Fashion">Fashion</a></li>
             <li><a href="#FashionContainer">Conceptual</a></li>
             <li><a href="#FashionContainer">People</a></li>
-            <li><img src="Images/MaryLogoWhite.png" /></li>
+            <li><a href="index.html"><img src="Images/MaryLogoWhite.png"/></a></li>
             <li><a href="#FashionContainer">Social</a></li>
             <li><a href="#FashionContainer">Bio</a></li>
             <li><a href="#FashionContainer">Contact</a></li>
           </ul>
       </div> 
 
-      <div class="breakinFlow"></div> 
+      <div class="breakingFlow"></div> 
     </div>
 
+    <!-- Mobile bar -->
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html#"><img src="Images/MaryLogoWhite.png" /></a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Fashion</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conceptual <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="conceptual.html">Conceptual photography</a></li>
+                  <li><a href="cities.html">Cities</a></li>
+                </ul>
+              </li>
+              <li><a href="people.html">Social</a></li>
+              <li><a href="index.html#social">Social</a></li>
+              <li><a href="#">Bio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid --> 
+    </div>
 
 
     <!-- 1.- Gray Photoshoot-->
@@ -131,20 +161,20 @@
 
               <a class="right carousel-control" href="#sandra" role="button" data-slide="next"><img id ="Arrow" src="Images/rightBlackArrow.png"></a>
 
-              <div class="breakingFlow"></div>
             
           </div><!-- /.carousel -->
 
           <div class="comments">
 
             <p>Outdoor Photoshoot</p>
+            <button type="button" onclick="location.href='maryandscotty.html'"class="btn btn-lg">View all</button>
 
           </div>
 
 
-          <a href="maryandscotty.html"><button type="button" class="btn btn-lg">View all</button></a>
+          
 
-          <div class="breakingFlow"></div>
+          <div class="breakingFlow"></div> 
 
       </div>
 
@@ -248,12 +278,13 @@
           <div class="comments">
 
             <p>Cupcake Making</p>
+            <button type="button" onclick="location.href='beatriz.html'"class="btn btn-lg">view all</button>
 
           </div>
 
-          <a href="beatriz.html"><button type="button" class="btn btn-lg">view all</button></a>
+          
 
-          <div class="breakingFlow"></div>
+          <div class="breakingFlow"></div> 
 
       </div>
     </div>
@@ -307,10 +338,11 @@
           <div class="comments">
 
             <p>Guitar Player Photoshoot</p>
+            <button id="felixB" type="button" onclick="location.href='felix.html'" class="btn btn-lg">view Photos</button>
 
           </div>
 
-          <a href="felix.html"><button id="felixB" type="button" class="btn btn-lg">view photoshoot</button></a>
+          
 
           <div class="breakingFlow"></div>
 

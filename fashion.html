@@ -44,24 +44,53 @@
             <li><a href="#Fashion">Fashion</a></li>
             <li><a href="#FashionContainer">Conceptual</a></li>
             <li><a href="#FashionContainer">People</a></li>
-            <li><img src="Images/MaryLogoWhite.png" /></li>
+            <li><a href="index.html"><img src="Images/MaryLogoWhite.png" /></a></li>
             <li><a href="#FashionContainer">Social</a></li>
             <li><a href="#FashionContainer">Bio</a></li>
             <li><a href="#FashionContainer">Contact</a></li>
           </ul>
       </div> 
 
-      <div class="breakinFlow"></div> 
+      <div class="breakingFlow"></div> 
     </div>
 
-
+    <!-- Mobile bar -->
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html#"><img src="Images/MaryLogoWhite.png" /></a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Fashion</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conceptual <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="conceptual.html">Conceptual photography</a></li>
+                  <li><a href="cities.html">Cities</a></li>
+                </ul>
+              </li>
+              <li><a href="people.html">Social</a></li>
+              <li><a href="index.html#social">Social</a></li>
+              <li><a href="#">Bio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid --> 
+    </div>
 
     <!-- 1.- White Photoshoot-->
     <div class="photoshootContainer gray">
 
       <div class="photoshoot">
 
-        <div class="sectionTiltle">
+        <div class="sectionTitle">
 
               <p>Sandra</p>
 
@@ -122,8 +151,6 @@
                   </div>
                 </div>
 
-                
-
               </div>
 
             </div>
@@ -135,19 +162,21 @@
             
           </div><!-- /.carousel -->
 
+
           <div class="comments">
 
             <p>Photoshoot at EFTI Studios</p>
-
+            <button type="button" onclick="location.href='sandra.html'" class="btn btn-lg">SHOW MORE</button>
 
           </div>
 
-
-          <a href="sandra.html"><button type="button" class="btn btn-lg">SHOW MORE</button></a>
+          <div class="breakingFlow"></div>
 
       </div>
 
     </div>
+
+    
 
 
 
@@ -156,7 +185,7 @@
 
       <div class="photoshoot">
 
-        <div class="sectionTiltle">
+        <div class="sectionTitle">
 
               <p>Burguillo</p>
 
@@ -233,8 +262,6 @@
                   </div>
                 </div>
 
-                
-
               </div>
 
             </div>
@@ -248,11 +275,12 @@
 
           <div class="comments">
 
-            <p>Photoshoot at <br> El Burguillo, Madrid</p>
+            <p>Photoshoot at <br> El Burguillo lake, Madrid</p>
+            <button type="button" onclick="location.href='burguillo.html'" class="btn btn-lg">SHOW MORE</button>
 
           </div>
 
-          <a href="burguillo.html"><button type="button" class="btn btn-lg">SHOW MORE</button></a>
+          <div class="breakingFlow"></div>
 
       </div>
 
@@ -264,7 +292,7 @@
 
       <div class="photoshoot">
 
-        <div class="sectionTiltle">
+        <div class="sectionTitle">
 
               <p>Mariana</p>
 
@@ -287,7 +315,7 @@
 
                 <!-- Slide two -->
                 <div class="item">
-                  <img src="Images/fashion/mariana/2.jpg" alt="Second slide">
+                  <img src="Images/fashion/mariana/3.jpg" alt="Second slide">
                     <div class="carousel-caption">
                       <h1>Title two.</h1>
                     </div>
@@ -295,18 +323,10 @@
 
                 <!-- Slide three -->
                 <div class="item">
-                  <img src="Images/fashion/mariana/3.jpg" alt="Third slide">
+                  <img src="Images/fashion/mariana/4.jpg" alt="Third slide">
                     <div class="carousel-caption">
                       <h1>Title three.</h1>
                     </div>
-                </div>
-
-                <!-- Slide One -->
-                <div class="item active">
-                  <img src="Images/fashion/mariana/4.jpg" alt="Fourth slide">
-                  <div class="carousel-caption">
-                      <h1>Title One</h1>
-                  </div>
                 </div>
 
               </div>
@@ -322,12 +342,12 @@
 
           <div class="comments">
 
-            <p>A day at El Retiro park</p>
+            <p>Photoshoot at El Retiro, Madrid</p>
+            <button type="button" onclick="location.href='mariana.html'" class="btn btn-lg">SHOW MORE</button>
 
           </div>
 
-          <a href="mariana.html"><button type="button" class="btn btn-lg">SHOW MORE</button></a>
-
+          <div class="breakingFlow"></div>
 
       </div>
     </div>
@@ -338,7 +358,7 @@
 
       <div class="photoshoot">
 
-        <div class="sectionTiltle">
+        <div class="sectionTitle">
 
               <p>Mistery Girl</p>
 
@@ -380,11 +400,12 @@
 
           <div class="comments">
 
-            <p>A Real Palace Gardens Mistery</p>
+            <p>Photoshoot at Real Palace, Madrid</p>
+            <button type="button" onclick="location.href='mistery.html'" class="btn btn-lg">SHOW MORE</button>
 
           </div>
 
-          <a href="mistery.html"><button type="button" class="btn btn-lg">SHOW MORE</button></a>
+          <div class="breakingFlow"></div>
 
       </div>
     </div>
@@ -393,9 +414,9 @@
     <!-- 1.- White Photoshoot-->
     <div class="photoshootContainer gray">
 
-      <div class="photoshoot">
+      <div class="photoshoot park">
 
-        <div class="sectionTiltle park">
+        <div class="sectionTitle park">
 
               <p>A Day In The park</p>
 
@@ -418,14 +439,6 @@
 
                 <!-- Slide two -->
                 <div class="item">
-                  <img src="Images/fashion/parque/2.jpg" alt="Second slide">
-                    <div class="carousel-caption">
-                      <h1>Title two.</h1>
-                    </div>
-                </div>
-
-                <!-- Slide two -->
-                <div class="item">
                   <img src="Images/fashion/parque/3.jpg" alt="Third slide">
                     <div class="carousel-caption">
                       <h1>Title two.</h1>
@@ -437,14 +450,11 @@
             </div>
 
                   <!-- Arrows at corners -->
-              <a class="left carousel-control" href="#park" role="button" data-slide="prev"><img id ="Arrow" src="Images/leftBlackArrow.png"></a>
+              <a class="left carousel-control" href="#park" role="button" data-slide="prev"><img id ="arrowPark" src="Images/leftBlackArrow.png"></a>
 
-              <a class="right carousel-control" href="#park" role="button" data-slide="next"><img id ="Arrow" src="Images/rightBlackArrow.png"></a>
+              <a class="right carousel-control" href="#park" role="button" data-slide="next"><img id ="arrowPark" src="Images/rightBlackArrow.png"></a>
             
           </div><!-- /.carousel -->
-
-         
-
 
       </div>
     </div>
@@ -455,7 +465,7 @@
 
       <div class="photoshoot">
 
-        <div class="sectionTiltle park">
+        <div class="sectionTitle pool">
 
               <p>Girl At The Pool</p>
 
@@ -496,13 +506,6 @@
         </div>
 
       </div>
-
-
-    
- 
-
-
-      
 
 
     <!-- Bootstrap core JavaScript

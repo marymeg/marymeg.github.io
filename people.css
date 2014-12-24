@@ -35,7 +35,7 @@
 
 		font-size: 30px;
 		margin: 0px;
-		margin-left: 30px;
+		margin-left: 3%;
 		padding-bottom: 5px;
 		text-align: left;
 		color: #8c7c3d;
@@ -56,9 +56,6 @@
 	{
 
 		/*Other settings coming from main*/
-		position: absolute;
-		right: 190px;
-		top: 360px;
 	}
 
 
@@ -69,7 +66,7 @@
 
 	.photoshoot
 	{
-		width: 1000px;
+		width: 90%;
 		margin: 0 auto;
 		position: relative;
 		padding: 30px 0px;
@@ -83,12 +80,11 @@
 
 	.comments
 	{
-		width: 370px;
-		float: left;
-		position: absolute;
-		right: 75px;
-		top: 210px;
-
+		width: 30%;
+		float: right;
+		text-align: center;
+		margin-right: 10%;
+		margin-top: 15%;
 	}
 
 	.comments p
@@ -100,6 +96,7 @@
 		font-size: 30px;
 		font-family: 'brandon_grotesque_regularRg';
 		color: #777575;
+		margin-bottom: 15%;
 	}
 
 	.commentsH
@@ -124,7 +121,7 @@
 	.FashionVCarouselContainer
 	{
 		margin: 0;
-		width: 400px;
+		width: 45%;
 		height: 570px;
 		position: relative;
 		float: left;
@@ -188,27 +185,12 @@
 
 	}
 
-
-	.FashionVCarouselContainer .carousel-control.left
-	{
-		position: absolute;
-		left: -10px;
-		top: 180px;
-	}
-
-	.FashionVCarouselContainer .carousel-control.right
-	{
-		position: absolute;
-		right: -10px;
-		top: 180px;
-	}
-
 /*Horizontal Carousel*/
 
 	.FashionHCarouselContainer
 	{
 		margin: 0 auto;
-		width: 920px;
+		width: 80%;
 		height: 570px;
 		position: relative;
 	}
@@ -272,21 +254,6 @@
 	}
 
 
-	.FashionHCarouselContainer .carousel-control.left
-	{
-		position: absolute;
-		left: -10px;
-		top: 180px;
-	}
-
-	.FashionHCarouselContainer .carousel-control.right
-	{
-		position: absolute;
-		right: -10px;
-		top: 180px;
-	}
-
-
 	/* Park */
 
 	.sectionTiltle.park
@@ -299,6 +266,99 @@
 		right: 150px;
 	}
 
+
+@media  only screen and (max-width: 760px)
+{
+	.FashionVCarouselContainer 
+	{
+		width: 100%;
+		float: none;
+		height: 900px;
+	}
+
+	.comments
+	{
+		padding: 8% 0;
+		width: 50%;
+		margin:0 auto; 
+		float: none;
+	}
+
+	.FashionHCarouselContainer
+	{
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width: 670px)
+{
+    .FashionVCarouselContainer
+    {
+    	height: 820px;
+    }
+
+    .FashionHCarouselContainer
+	{
+		height: 315px;
+	}
+}
+
+@media only screen and (max-width: 400px)
+{
+	.photoshootContainer
+	{
+		padding: 8% 0;
+	}
+
+
+	.FashionVCarouselContainer
+    {
+    	height: 520px;
+    }
+
+    .FashionHCarouselContainer
+    {
+    	height: 215px;
+    }
+
+    .comments
+    {
+    	width: 60%;
+    }
+
+    .comments p
+    {
+    	font-size: 20px;
+    }
+
+    .sectionTitle p
+    {
+    	font-size: 25px;
+    }
+
+    .photoshoot .btn-lg 
+    {
+		margin-top: 10%;
+	}
+
+	.photoshoot.park
+	{
+		width: 100%;
+
+	}
+
+	.sectionTitle.park
+	{
+		padding: 0;
+		padding-bottom: 5%;
+	}
+
+	.sectionTitle.park p
+	{
+		text-align: center;
+
+	}
+}
 
 
 
@@ -386,5 +446,5 @@ height: 100%;
 #Arrow
 {
 	width:20px;
-	padding-top: 200%;
+	margin-top: 0%;
 }

@@ -5,9 +5,9 @@
 
 .picture
 {
-	width: 1000px;
+	width: 90%;
 	margin: 0 auto;
-	margin-top: 80px;
+	margin-top: 8%;
 	
 }
 
@@ -33,13 +33,12 @@
 .title p
 {
 	font-style: italic;
-	margin-top: 15px;
-	margin-bottom: 25px;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 .image
 {
-	margin-bottom: 100px;
 	margin: 0 auto;
 }
 
@@ -55,18 +54,25 @@
 
 .picture .image h1
 {
-	margin: 0;
-	margin-top: 10px;
-	text-align: left;
+	width: 80%;
+	margin: 1% auto;
 
-		font-family: "brandon_grotesque_regularRg";
-		letter-spacing: .4px;
-		font-weight: 400;
-		font-style: normal;
-		opacity: .7;
-		font-size: 15px;
-		line-height: 1.4em;
-	margin-left: 100px;	
+	font-family: "brandon_grotesque_regularRg";
+	letter-spacing: .4px;
+	font-weight: 400;
+	font-style: normal;
+	opacity: .7;
+	font-size: 15px;
+	line-height: 1.4em;
+	text-align: left;
+}
+
+@media only screen and (max-width: 400px)
+{
+	.title p
+	{
+		margin-bottom: 10%;
+	}
 }
 
 
