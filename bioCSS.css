@@ -48,7 +48,9 @@ html,body
 	background-color: white;
 	opacity: 0.8;
 	padding: 5px 10px;
-	margin-left: 10%;	
+	margin-left: 10%;
+
+	border-bottom: 4px solid black	
 }
 
 .descriptionText p
@@ -76,4 +78,32 @@ position: absolute;
 top: 140px;
 left: 145px;
 opacity: 0.9;
+}
+
+@media only screen and (max-width: 400px)
+{
+	.aboutme img
+	{
+		width: 85%;
+		margin-top: 6%;
+		margin-left: 5%;
+		margin-bottom: 7%;
+	}
+
+	.descriptionText
+	{
+		width: 90%;
+		height: 70%;
+		background-color: white;
+		opacity: 0.8;
+		padding: 5px 10px;
+		margin-left: 5%;
+
+		border-bottom: 4px solid black	
+	}
+
+	.descriptionText p
+	{
+		font-size: 15px;
+	}
 }
