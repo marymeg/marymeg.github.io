@@ -89,7 +89,19 @@
 		float: right;
 		margin-top: 15%;
 		text-align: center;
+	}
 
+	.comments.park
+	{
+		margin-top: 5%;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.comments.park p
+	{
+		width: 40%;
 	}
 
 	.comments p

@@ -44,7 +44,7 @@
 
 .pictureContainer img
 {
-	width: 80%;
+	width: 60%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto 
@@ -54,7 +54,7 @@
 
 .picture .image h1
 {
-	width: 80%;
+	width: 60%;
 	margin: 1% auto;
 
 	font-family: "brandon_grotesque_regularRg";

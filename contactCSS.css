@@ -1,0 +1,48 @@
+.mainContainer
+{
+	width: 100%;
+}
+
+.formContainer
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.formContainer form
+{
+	text-align: center;	
+	margin-top: 100px;
+}
+
+form input
+{
+	width: 50%;
+	margin-bottom: 40px;
+	border-style: none;
+	border-bottom: 1px solid #b2b2b2;
+	font-family: "HelveticaNeue-ultralight";
+}
+
+form input:focus
+{
+	border: none;
+}
+
+form textarea
+{
+	width: 50%;
+	height: 150px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	border-color: #b2b2b2;
+	font-family: "HelveticaNeue-medium";
+
+	resize: none;
+}
+
+.footerContainer
+{
+	position: relative;
+	bottom: 0px;
+}
